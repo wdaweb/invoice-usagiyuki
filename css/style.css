@@ -1,0 +1,107 @@
+body{
+    margin : 0;
+    font-family: 'Open Sans',  Arial, 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    background: #fefefe;
+}
+
+.hear{
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background: rgb(255, 223, 0);
+}
+
+.cent{
+    display : flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    
+}
+
+.over {
+    width: 50%;
+    height: 80%;
+    overflow: auto;
+}
+
+table{
+    text-align: center;
+    width: 100%;
+}
+
+.tb1{
+    width: 70%;
+}
+
+tr:nth-child(even){
+    background: lightsalmon;
+}
+
+tr:not(:first-child) + tr:nth-child(odd){ 
+    background: lightskyblue ;
+}
+
+.mon{
+    padding: 0 20px;
+    background-color: aquamarine;
+}
+
+.nowmon{
+    border-radius: 15px;
+    background: chartreuse;
+}
+
+.awdiv{
+    width: 90vw;
+    height: 70vh;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.awdiv > div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.awdiv samp {
+    font-size: 1.3rem;
+    margin: 0 10px;
+}
+
+form{
+    box-shadow: 0px 0px 3px #999;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+form input{
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+.amount{
+    color: crimson;
+    text-shadow: 0px 0px 1px #f0f;
+}
+
+.money{
+    color: yellowgreen;
+    text-shadow: 0px 0px 1px #ff0;
+}
+
+.btline{
+    margin: 0 10%;
+    border-bottom: 1px solid #aaa;
+}
+
+.btspace{
+    margin-bottom: 1rem;
+}
