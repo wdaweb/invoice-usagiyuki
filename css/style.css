@@ -1,7 +1,7 @@
 body{
     margin : 0;
     font-family: 'Open Sans',  Arial, 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
-    background: #fefefe;
+    background: #fcfcfc;
 }
 
 .hear{
@@ -37,7 +37,7 @@ table{
 }
 
 .tb1{
-    width: 70%;
+    width: 80%;
 }
 
 tr:nth-child(even){
